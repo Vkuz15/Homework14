@@ -44,4 +44,9 @@ public class Kogtevran extends HogwartsStudents {
     public void setCreativity(int creativity) {
         this.creativity = creativity;
     }
+
+    @Override
+    public String toString() {
+        return "Когтевран ";
+    }
 }

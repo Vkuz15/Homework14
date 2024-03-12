@@ -53,4 +53,9 @@ public class Slizeren extends HogwartsStudents {
     public void setThirstPower(int thirstPower) {
         this.thirstPower = thirstPower;
     }
+
+    @Override
+    public String toString() {
+        return "Слизерен ";
+    }
 }

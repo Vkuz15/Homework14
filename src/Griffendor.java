@@ -34,4 +34,8 @@ public class Griffendor extends HogwartsStudents {
         this.bravery = bravery;
     }
 
+    @Override
+    public String toString() {
+        return "Гриффендор ";
+    }
 }

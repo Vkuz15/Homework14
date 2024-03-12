@@ -33,4 +33,9 @@ public class Puffendui extends HogwartsStudents {
     public void setHonesty(int honesty) {
         this.honesty = honesty;
     }
+
+    @Override
+    public String toString() {
+        return "Пуффендуй ";
+    }
 }

@@ -48,4 +48,13 @@ public class Hogwarts {
             System.out.println("Грегори Гойл лучший ученик Слизерена, чем Драко Малфой и Грэхэм Монтегю");
         }
     }
+    public void compare(HogwartsStudents student1, HogwartsStudents student2) {
+        int resultStudent1 = student1.getPowerOfMagic() + student1.getTrangressive();
+        int resultStudent2 = student2.getPowerOfMagic() + student2.getTrangressive();
+        if (resultStudent1 > resultStudent2) {
+            System.out.println(student1 + " Лучше по силе магии и трангрессии чем " + student2);
+        } else {
+            System.out.println(student2 + " Лучше по силе магии и трангрессии чем " + student1);
+        }
+    }
 }

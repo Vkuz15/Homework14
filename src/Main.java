@@ -23,5 +23,7 @@ public class Main {
         Slizeren slizeren2 = new Slizeren("Грэхэм", "Монтегю",21,41,23,41,20,14,12);
         Slizeren slizeren3 = new Slizeren("Грегори", "Гойл", 20, 35, 20, 14, 22, 21, 13);
         hogwarts.compare(slizeren1, slizeren2, slizeren3);
+
+        hogwarts.compare(griffendor1, puffendui1);
     }
 }
